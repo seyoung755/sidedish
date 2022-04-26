@@ -60,6 +60,11 @@ class MenuDetailFragment : Fragment() {
             lifecycleOwner = this@MenuDetailFragment
             menuViewModel = viewModel
         }
+
+        val newAlarm = MenuAlertDialog()
+        binding.btOrder.setOnClickListener {
+            newAlarm.show(this.parentFragmentManager, "alarm")
+        }
     }
 
 }

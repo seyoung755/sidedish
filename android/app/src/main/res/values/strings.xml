@@ -20,4 +20,6 @@
     <string name="total_amount">총 주문금액</string>
     <string name="launching_event">런칭특가</string>
     <string name="event_promotion">이벤트특가</string>
+    <string name="order_complete">주문이 완료 되었습니다</string>
+    <string name="order_confirmed">확인</string>
 </resources>
