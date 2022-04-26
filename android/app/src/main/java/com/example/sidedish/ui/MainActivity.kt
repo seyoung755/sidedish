@@ -21,7 +21,7 @@ import com.google.firebase.auth.GoogleAuthProvider
 class MainActivity : AppCompatActivity() {
 
     private lateinit var firebaseAuth: FirebaseAuth
-
+    //http://localhost:8080/login/oauth?code=b4774e3b1926978cbb6c
     private val googleSignInIntent by lazy {
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.default_web_client_id)).requestEmail().build()
